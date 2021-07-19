@@ -1,0 +1,202 @@
+.input-field{
+    margin-bottom: 25px;
+}
+.login-info{
+    padding-top:300px;
+}
+.login-info-panel{
+    height: 200px;
+    
+}
+body {
+	color: #fff;
+	background :antiquewhite;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}  
+
+.navbar_block {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    float: right;
+	overflow: hidden;
+	background-color: black;
+	height : 50px;
+	width: 100%;
+	
+	
+  }
+
+  .fontcolor{
+	color: #070707;
+  }
+  
+.nav_link {
+	float: left;
+	display: block;
+	font-size:25px;
+	padding: 20px;
+	float:right;
+	font-style: italic;
+    color: black;
+}
+
+.background  {
+	background-image: url("../images/Background.jpeg");
+	height: 100%;
+	width :100%;
+	background-color: #cccccc;
+}
+.card_block {
+	
+	border-style: solid;
+	background-image: url("../images/card_background.jpeg");
+	background-color: pink;
+	padding: 10px;
+	margin: 5%;
+	block-size: 40%;
+
+}
+.card_text{
+	color: black;
+}
+  .icon{
+	color: black;
+	float :right;
+}
+.rcorners2 {
+	border-radius: 25px;
+	border: 2px solid #070707;
+	padding: 20px; 
+	 
+  }
+  .block{
+  background-color: rgb(192, 207, 192) ;
+	width:300px;
+	height:20%;
+	padding :10px;
+  }
+  .img_card{
+	  width:100%;
+	  height:50%;
+
+  }
+  .bottom {
+	position:absolute;                 
+	bottom:0;                         
+	left:0;                         
+}
+.mymodal {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background: #5cb85c;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 80px;
+  }
+  
+  .myoverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+  }
+  .center {
+	margin: 0;
+	position: absolute;
+	left: 40%;
+	
+  }
+
+
+  
+  
